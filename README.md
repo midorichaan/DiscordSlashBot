@@ -1,0 +1,2 @@
+# DiscordSlashBot
+slash commandのテストBot
