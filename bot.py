@@ -16,7 +16,7 @@ class SlashBot(commands.Bot):
         self.session = kwargs.get("session", None)
         self.config = kwargs.get("config", __import__("config"))
 
-        self._cogs = ["cogs.mido_admins"]
+        self._cogs = ["cogs.mido_admins", "jishaku"]
 
     #on_ready
     async def on_ready(self):
